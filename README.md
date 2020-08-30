@@ -39,7 +39,7 @@ $ python3 main.py --epochs 60 --batch_size 1 --lr 1e-3
 #### T1-weighted images
 #### T2-weighted images
 <p align="center"> 
-  <img src="_images/t2.png">
+  <img width="700" src="_images/t2.png">
 </p>
 
 ## References
