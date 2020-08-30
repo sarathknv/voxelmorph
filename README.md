@@ -13,6 +13,9 @@ The network is trained by optimizing a similarity metric (normalized cross-corre
 
 ## Usage
 
+#### Colab notebook
+https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sharing
+
 #### Training
 ```bash
 $ python3 main.py --epochs 60 --batch_size 1 --lr 1e-3
@@ -30,8 +33,6 @@ $ python3 main.py --epochs 60 --batch_size 1 --lr 1e-3
 `utils.py` - utilities for differntiable image sampling  
 `voxelmorph.ipynb` - copy of the Colab notebook  
 
-#### Colab notebook
-https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sharing
 
 
 ## Sample results
@@ -40,3 +41,11 @@ https://colab.research.google.com/drive/1-lPuD4vRCeihKYMQKDDXLYq1dxm-3tJR?usp=sh
 
 
 ## References
+*   Balakrishnan, G., Zhao, A., Sabuncu, M.R., Guttag, J. and Dalca, A.V., 2018. An unsupervised learning model for deformable medical image registration. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 9252-9260).
+*   Jaderberg, M., Simonyan, K. and Zisserman, A., 2015. Spatial transformer networks. In Advances in neural information processing systems (pp. 2017-2025).
+*   Spatial Transformer Networks by Kushagra Bhatnagar. https://link.medium.com/0b2OrmqVO5
+*   [Original VoxelMorph implementation](https://github.com/voxelmorph/voxelmorph)
+*   [TensorFlow implementation of spatial transformer networks](https://github.com/tensorflow/models/tree/master/research/transformer)
+
+
+
