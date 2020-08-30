@@ -38,7 +38,9 @@ $ python3 main.py --epochs 60 --batch_size 1 --lr 1e-3
 ## Sample results
 #### T1-weighted images
 #### T2-weighted images
-
+<p align="center"> 
+  <img src="_images/t2.png">
+</p>
 
 ## References
 *   Balakrishnan, G., Zhao, A., Sabuncu, M.R., Guttag, J. and Dalca, A.V., 2018. An unsupervised learning model for deformable medical image registration. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 9252-9260).
