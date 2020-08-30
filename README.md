@@ -29,7 +29,7 @@ $ python3 main.py --epochs 60 --batch_size 1 --lr 1e-3
 `metrics.py` - loss functions (normalized cross-correlation and gradient loss)  
 `viz.py` - helper tools to visualize registration results  
 `models.py` - VoxelMorph models' architectures  
-`dataloader.py` - the dataloader class for fetching and preprocessing batches of images for real-time data feeding to the model  
+`dataloader.py` - for fetching and preprocessing batches of images for real-time data feeding to the model  
 `utils.py` - utilities for differntiable image sampling  
 `voxelmorph.ipynb` - copy of the Colab notebook  
 
